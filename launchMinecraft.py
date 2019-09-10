@@ -180,17 +180,7 @@ def launchMine(lessonType):
 				return False
 		except:
 			print("something went completely wrong...")
-			#launchMinecraft()
 	return True
 
 def closeMine():
 	os.system("TASKKILL /F /IM Minecraft.Windows.exe")
-
-#closeMine()
-#procs = [p for p in psutil.process_iter() if 'MinePS.exe' in p.name() or 'MinePR.exe' in p.name()]# and __file__ in p.cmdline()]
-#if len(procs) > 2:
-#    print('Process is already running...')
-#    sys.exit(1)
-
-#launchMine("PR")
-#Зафризить в один файл. Закинуть Диане м диме на какой-то слабый комп.
