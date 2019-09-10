@@ -1,5 +1,6 @@
 # tchrHlprStudent
-Students' devices part of software to lock mouse, screen and keyboard  
+Students' devices part of software to lock mouse, screen and keyboard.  
+  
 Freezing:  
 pyinstaller.exe --onefile --noconsole --icon=agent.ico .\MinePR.py  
 pyinstaller.exe --onefile --noconsole --icon=minecraft.ico .\MinePS.py  
